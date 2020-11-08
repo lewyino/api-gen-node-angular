@@ -1,0 +1,9 @@
+.data-item {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.data-item span {
+    font-style: italic;
+}

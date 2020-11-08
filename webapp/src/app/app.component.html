@@ -1,0 +1,5 @@
+<div>
+    <div *ngFor="let data of data$ | async" class="data-item">
+        {{data.name}} <span>({{data.id}})</span>
+    </div>
+</div>
