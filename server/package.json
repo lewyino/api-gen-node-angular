@@ -1,0 +1,24 @@
+{
+    "name": "api-gen-node-angular",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "genApi:swagger": "node swagger-jsdoc.js",
+        "genApi:openapi": "openapi-generator-cli generate",
+        "genApi": "npm run genApi:swagger && npm run genApi:openapi"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@openapitools/openapi-generator-cli": "^2.0.3",
+        "swagger-jsdoc": "^5.0.0"
+    }
+}
